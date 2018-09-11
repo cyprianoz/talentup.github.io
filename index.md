@@ -16,6 +16,6 @@ layout: default
     </em>
   </p>
   <p class="lead">
-    <a href="http://www.talentupafrica.com/index.html" class="btn btn-lg btn-secondary">Learn more</a>
+    <a href="http://www.talentupafrica.com/index.html" class="btn btn-outline-secondary">Learn more</a>
   </p>
 </main>
