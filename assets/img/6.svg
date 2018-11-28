@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="80" width="80">
+  <defs>
+    <ellipse id="ellipse-0" opacity="1" rx="40" ry="40" cx="40" cy="40"/>
+    <mask id="mask-1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <rect opacity="1" x="0" y="0" width="80" height="80" fill="Black"/>
+      <use xlink:href="#ellipse-0" fill="White"/>
+    </mask>
+    <ellipse id="ellipse-2" opacity="1" rx="6.5" ry="6.5" cx="40" cy="12.5"/>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <g opacity="1">
+        <g opacity="1">
+          <use xlink:href="#ellipse-0" fill="rgb(255,170,0)" fill-opacity="1"/>
+        </g>
+        <g mask="url(#mask-1)"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-2" fill="rgb(255,255,255)" fill-opacity="1"/>
+    </g>
+  </g>
+</svg>

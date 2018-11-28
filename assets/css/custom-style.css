@@ -14,10 +14,13 @@ body{ font-family: 'Work Sans', sans-serif; color: #4f4f4f; line-height: 1.2 }
 .nav-login{ background: #fff; color: #2d455e !important; border-radius: 20px }
 .nav-login:hover{ background: #ff9d00; color: #fff !important }
 
-.banner{ position: relative; min-height: 70vh; background-image: url(../img/LandingPageBanner.jpg); background-size: cover }
+.banner{ position: relative; min-height: 70vh; background-size: cover }
+.landing-banner{ background-image: url('../img/LandingPageBanner.jpg') }
+.job-banner{ background-image: url('../img/JobSeekersBanner.jpg') }
+.employer-banner{ background-image: url('../img/EmployerBanner.jpg')}
 .banner-overlay{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(50deg, #1b252f 35%, rgba(255,170,0,0.32)); }
 
-.btn{ border-radius: 20px; font-weight: 500 }
+.btn{ border-radius: 35px; font-weight: 500 }
 .white-btn{ background-color: #fff; color: #1b252f !important } .white-btn:hover{background: rgba(255,255,255,0.05); border: solid thin #fff; color: #fff !important}
 .pry-btn{ background-color: #ff9d00; color: #fff !important } .pry-btn:hover{background: rgba(255,170,0,0.05); border: solid thin #ff9d00; color: #ff9d00 !important}
 .dark-btn{ background-color: #1b252f; color: #fff !important } .dark-btn:hover{ background: rgba(27,37,47,0.05); border: solid thin #1b252f; color: #1b252f !important }
@@ -30,6 +33,7 @@ body{ font-family: 'Work Sans', sans-serif; color: #4f4f4f; line-height: 1.2 }
 .card{border:none; border:solid 4px #f7f7f7}
 .text-brand{color: #ff9d00} .bg-brand{background-color: #ff9d00}
 .bg-brand-dark{background: #1b252f}
+.bg-brand-light{background: rgba(255,170,0,0.05)}
 
 .phoneDemo{
     width: 100%;
@@ -42,3 +46,17 @@ body{ font-family: 'Work Sans', sans-serif; color: #4f4f4f; line-height: 1.2 }
     .demoScreen{width: 100%}
     .phoneDemo{background: #fff}
 }
+
+.section{ padding-top: 80px; padding-bottom: 80px }
+.lead{font-size: 24px}
+.small-lead{font-size: 18px} .medium-lead{font-size: 22px}
+.large-lead{font-size: 38px}
+.font-weight-medium{font-weight: 500}
+
+ul{ margin-left: -20px; list-style-type: square }
+
+.offering{font-weight: 500; background: #fff}
+.offering:nth-of-type(odd) {border: solid thin #31363a}
+.offering:nth-of-type(even) {border: solid thin #ff9d00}
+.offering:first-child, .offering:nth-child(4) {border-top-left-radius: 50px; border-bottom-left-radius: 50px}
+.offering:nth-child(3), .offering:nth-child(5) {border-top-right-radius: 50px; border-bottom-right-radius: 50px}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="80" width="80">
+  <defs>
+    <ellipse id="ellipse-0" opacity="1" rx="40" ry="40" cx="40" cy="40"/>
+    <mask id="mask-1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <rect opacity="1" x="0" y="0" width="80" height="80" fill="Black"/>
+      <use xlink:href="#ellipse-0" fill="White"/>
+    </mask>
+    <path id="path-2" opacity="1" fill-rule="evenodd" d="M39.99999999999993,0 L39.99999999999993,40 L1.9999999999999254,18 L-6.6666666666667425,42.666666666666664 L9.999999999999925,83.33333333333334 L71.99999999999993,93.66666666666667 L103.6666666666666,57.66666666666667 L77.33333333333326,0 L39.99999999999993,0Z"/>
+    <ellipse id="ellipse-3" opacity="1" rx="6.5" ry="6.5" cx="20.5" cy="29.5"/>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <g opacity="1">
+        <g opacity="1">
+          <use xlink:href="#ellipse-0" fill="rgb(224,224,224)" fill-opacity="1"/>
+        </g>
+        <g mask="url(#mask-1)">
+          <g opacity="1">
+            <use xlink:href="#path-2" fill="rgb(255,170,0)" fill-opacity="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-3" fill="rgb(255,255,255)" fill-opacity="1"/>
+    </g>
+  </g>
+</svg>
