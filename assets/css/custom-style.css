@@ -18,6 +18,7 @@ body{ font-family: 'Work Sans', sans-serif; color: #4f4f4f; line-height: 1.2 }
 .landing-banner{ background-image: url('../img/LandingPageBanner.jpg') }
 .job-banner{ background-image: url('../img/JobSeekersBanner.jpg') }
 .employer-banner{ background-image: url('../img/EmployerBanner.jpg')}
+.academy-banner{ background-image: url('../img/leadershipAcademyBanner.jpg') }
 .banner-overlay{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(50deg, #1b252f 35%, rgba(255,170,0,0.32)); }
 
 .btn{ border-radius: 35px; font-weight: 500 }
@@ -54,9 +55,13 @@ body{ font-family: 'Work Sans', sans-serif; color: #4f4f4f; line-height: 1.2 }
 .font-weight-medium{font-weight: 500}
 
 ul{ margin-left: -20px; list-style-type: square }
+ol{margin-left: -20px}
 
 .offering{font-weight: 500; background: #fff}
 .offering:nth-of-type(odd) {border: solid thin #31363a}
 .offering:nth-of-type(even) {border: solid thin #ff9d00}
 .offering:first-child, .offering:nth-child(4) {border-top-left-radius: 50px; border-bottom-left-radius: 50px}
 .offering:nth-child(3), .offering:nth-child(5) {border-top-right-radius: 50px; border-bottom-right-radius: 50px}
+
+.p-details{position: relative;}
+.p-details span{width:100%; position: absolute; left: 30px; top: 10px}
