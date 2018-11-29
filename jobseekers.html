@@ -8,14 +8,14 @@
     <title>Job Seekers | Talentup Africa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/custom-style.css">
+    <link rel="stylesheet" href="./assets/css/custom-style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-dark">
         <div class="container-fluid py-1">
             <a class="navbar-brand" href="index.html">
-                <img src="../assets/img/tua-logo.png" width="120" alt="">
+                <img src="./assets/img/tua-logo.png" width="120" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-center text-md-left pb-3 pb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Job Seekers</a>
+                        <a class="nav-link active" href="#">Job Seekers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="employers.html">Employers</a>
@@ -34,10 +34,10 @@
                         <a class="nav-link" href="leadership-academy.html">Leadership Academy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About Us</a>
+                        <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-login px-4 ml-md-3" href="#">Login</a>
@@ -52,11 +52,12 @@
             <div class="row">
                 <div class="col-md-8 text-light text-center text-md-left my-5 my-md-0">
                     <h1 class="hero-title">Are you ready to take your career to the next level?</h1>
-                    <p class="pt-2">TalentUp Africa gives you the skills you need, the opportunity to stand out, and
+                    <p class="pt-2 sub-title text-light">TalentUp Africa gives you the skills you need, the opportunity
+                        to stand out, and
                         connects you with employers to find a job fast.</p>
-                    <div class="pt-3">
+                    <!-- <div class="pt-3">
                         <a href="" class="btn pry-btn px-5 py-3 my-2 my-md-0">Create Profile</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -72,38 +73,42 @@
             <div class="row mt-5">
                 <div class="col-md-4 text-center text-md-left">
                     <div class="py-3">
-                        <img src="../assets/img/professional-cv-icon.svg" class="pb-3" alt="">
+                        <img src="./assets/img/professional-cv-icon.svg" class="pb-3" alt="">
                         <p class="medium-lead font-weight-medium">Professional CV</p>
-                        <p class="text-secondary">Use our intuitive mobile template to build and download your professional CV in five simple
+                        <p class="text-secondary">Use our intuitive mobile template to build and download your
+                            professional CV in five simple
                             steps.</p>
                     </div>
                     <div class="py-3">
-                        <img src="../assets/img/jobs-board-icon.svg" class="pb-3" alt="">
+                        <img src="./assets/img/jobs-board-icon.svg" class="pb-3" alt="">
                         <p class="medium-lead font-weight-medium">Jobs Board</p>
                         <p class="text-secondary">Real-time job vacancy updates from leading companies.</p>
                     </div>
                     <div class="py-3">
-                        <img src="../assets/img/assessment-icon-white.svg" class="pb-3" alt="">
+                        <img src="./assets/img/assessment-icon-white.svg" class="pb-3" alt="">
                         <p class="medium-lead font-weight-medium">Assessment</p>
-                        <p class="text-secondary">Take quizzes to enhance your candidacy for open positions through showing your competences
+                        <p class="text-secondary">Take quizzes to enhance your candidacy for open positions through
+                            showing your competences
                             and capabilities.</p>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex align-items-center justify-content-center flex-column text-center">
-                    <div class="d-none d-md-block"><img src="../assets/img/mobile-phone-about.png" width="100%" alt=""></div>
-                    <div class="pt-5 d-none d-md-block"><img src="../assets/img/googleplay-black.svg" width="180" alt=""></div>
+                    <div class="d-none d-md-block"><img src="./assets/img/mobile-phone-about.png" width="100%" alt=""></div>
+                    <div class="pt-5 d-none d-md-block"><img src="./assets/img/googleplay-black.svg" width="180" alt=""></div>
                 </div>
                 <div class="col-md-4 d-flex align-items-center justify-content-center flex-column text-center text-md-left mt-3 mt-md-0">
                     <div class="py-3">
-                        <img src="../assets/img/leadership-academy-icon.svg" class="pb-3" alt="">
+                        <img src="./assets/img/leadership-academy-icon.svg" class="pb-3" alt="">
                         <p class="medium-lead font-weight-medium">Leadership Academy</p>
-                        <p class="text-secondary">Are you dreaming of becoming one of Africa’s future leader? Apply for our 6-week industry
+                        <p class="text-secondary">Are you dreaming of becoming one of Africa’s future leader? Apply for
+                            our 6-week industry
                             specific boot camp to hone your skills and match you directly with employers.</p>
                     </div>
                     <div class="py-3">
-                        <img src="../assets/img/offline-courses-icon.svg" class="pb-3" alt="">
+                        <img src="./assets/img/offline-courses-icon.svg" class="pb-3" alt="">
                         <p class="medium-lead font-weight-medium">Online Courses</p>
-                        <p class="text-secondary">Browse between and enrol in, online courses tailored to match companies’ recruitment needs.</p>
+                        <p class="text-secondary">Browse between and enrol in, online courses tailored to match
+                            companies’ recruitment needs.</p>
                     </div>
                 </div>
             </div>
@@ -114,25 +119,31 @@
             <p class="large-lead font-weight-medium">To get started:</p>
             <div class="row mt-5">
                 <div class="col-md-3">
-                    <img src="../assets/img/create-profile-round.svg" class="py-3" alt="">
+                    <img src="./assets/img/create-profile-round.svg" class="py-3" alt="">
                     <p class="medium-lead text-brand font-weight-medium">Create Profile</p>
-                    <p class="text-secondary">Sign up on our mobile or web app. We receive your standardized, accessible, and searchable profile, while you receive a
+                    <p class="text-secondary">Sign up on our mobile or web app. We receive your standardized,
+                        accessible, and searchable profile, while you receive a
                         standardized resume in PDF format.</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="../assets/img/take-assessments-round.svg" class="py-3" alt="">
+                    <img src="./assets/img/take-assessments-round.svg" class="py-3" alt="">
                     <p class="medium-lead text-brand font-weight-medium">Take Assessments</p>
-                    <p class="text-secondary">Take our aptitude, personality and/or industry-specific assessments. We identify your talent and help you stand out against competition.</p>
+                    <p class="text-secondary">Take our aptitude, personality and/or industry-specific assessments. We
+                        identify your talent and help you stand out against competition.</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="../assets/img/apply-for-jobs-round.svg" class="py-3" alt="">
+                    <img src="./assets/img/apply-for-jobs-round.svg" class="py-3" alt="">
                     <p class="medium-lead text-brand font-weight-medium">Apply for Jobs</p>
-                    <p class="text-secondary">Browse through and enrol for jobs. Enrol in skills specific online courses to enhance chances of employment. We use an algorithm drawing on your background information and assessment results as recruitment tools, aiding you to find employment fast.</p>
+                    <p class="text-secondary">Browse through and enrol for jobs. Enrol in skills specific online
+                        courses to enhance chances of employment. We use an algorithm drawing on your background
+                        information and assessment results as recruitment tools, aiding you to find employment fast.</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="../assets/img/leadership-academy-round.svg" class="py-3" alt="">
+                    <img src="./assets/img/leadership-academy-round.svg" class="py-3" alt="">
                     <p class="medium-lead text-brand font-weight-medium">Apply for Leadership Academy</p>
-                    <p class="text-secondary">Apply for the Talentup Africa Leadership Academy (TLA). Receive industry specific certifications. We use your background information and assessment results to identify select individuals who could benefit from our program.</p>
+                    <p class="text-secondary">Apply for the Talentup Africa Leadership Academy (TLA). Receive industry
+                        specific certifications. We use your background information and assessment results to identify
+                        select individuals who could benefit from our program.</p>
                 </div>
             </div>
         </div>
@@ -141,7 +152,8 @@
         <div class="container-fluid py-5">
             <div class="row">
                 <div class="col-md-4"><a href="" class="btn white-btn px-5 py-3">Create Profile</a></div>
-                <div class="col-md-4 mt-3 mt-md-0"><a href="" class="btn dark-btn px-5 py-3">Apply to Leadership Academy</a></div>
+                <div class="col-md-4 mt-3 mt-md-0"><a href="" class="btn dark-btn px-5 py-3">Apply to Leadership
+                        Academy</a></div>
                 <div class="col-md-4 mt-3 mt-md-0"><a href="" class="btn white-btn px-5 py-3">Browse Jobs</a></div>
             </div>
         </div>
@@ -152,16 +164,52 @@
                 <div class="col-md-6 text-center text-md-left">
                     <p class="text-light">
                         Talentup Africa &copy; 2018
-                        <div><a href="employers.html" class="link">Looking to Hire</a> | <a href="jobseekers.html" class="link">Looking for a Job</a></div>
+                        <div><a href="employers.html" class="link">Looking to Hire</a> | <a href="jobseekers.html"
+                                class="link">Looking for a Job</a></div>
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
-                    <a href=""><img class="pr-2" src="../assets/img/fb-icon.svg" alt=""></a>
-                    <a href=""><img src="../assets/img/tw-icon.svg" alt=""></a>
+                    <a href=""><img class="pr-2" src="./assets/img/fb-icon.svg" alt=""></a>
+                    <a href=""><img src="./assets/img/tw-icon.svg" alt=""></a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Get in Touch</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="user-name" class="col-form-label">Your Name:</label>
+                            <input type="text" class="form-control" id="user-name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email" class="col-form-label">Your Email Address:</label>
+                            <input type="email" class="form-control" id="user-email" placeholder="Email Address"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text" placeholder="Message"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark px-4">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
