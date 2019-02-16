@@ -15,6 +15,11 @@ body{ font-family: 'Work Sans', sans-serif; color: #4f4f4f; line-height: 1.2; ov
 .nav-login:hover{ background: #ff9d00; color: #fff !important }
 
 .banner{ position: relative; min-height: 70vh; background-size: cover }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .banner{ min-height: 30vh; padding-top: 5vh; padding-bottom: 5vh }
+}
+
 .landing-banner{ background-image: url('../img/LandingPageBanner.jpg') }
 .job-banner{ background-image: url('../img/JobSeekersBanner.jpg') }
 .employer-banner{ background-image: url('../img/EmployerBanner.jpg')}
