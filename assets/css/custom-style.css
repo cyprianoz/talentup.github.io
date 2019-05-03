@@ -75,3 +75,5 @@ ol{margin-left: -20px}
 .custom-card{
     border-top: solid 10px #2d455e
 }
+
+.social-icon { opacity: 0.8; transition: 0.3s } .social-icon:hover { cursor: pointer; opacity: 1.0 }
