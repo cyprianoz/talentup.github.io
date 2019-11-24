@@ -2,13 +2,18 @@
     transition: all 300ms ease;
     padding: 5rem 2.5rem;
     cursor: pointer;
-    box-shadow: -2px 25px 90px -42px rgba(0, 0, 0, 0.45);
+    background-color: white;
+    box-shadow: -2px 25px 40px -42px rgba(0, 0, 0, 0.45);
 
-    &:hover {}
+    &:hover {
+        box-shadow: -2px 25px 90px -42px rgba(189, 123, 0, 0.85);
+
+    }
 
     &__title {
         font-weight: 800;
-        font-size: 1.2em;
+        font-size: 1em;
+        margin-bottom: 1em;
 
         @include respond(large) {
             font-size: 1.1em;

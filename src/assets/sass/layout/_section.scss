@@ -21,7 +21,7 @@
         color: $color-black;
         display: inline-block;
         font-size: 3.5rem;
-        font-weight: 400;
+        font-weight: 700;
 
         &:not(:last-child) {
             margin-bottom: 1.6rem;
@@ -56,14 +56,12 @@
     }
 
     &__video {
-        background-image: url("../images/bg-video.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 14rem !important;
+        padding-top: 9rem !important;
+        background-color: $color-light-orange;
     }
 
     &__top {
-        padding-bottom: 0;
+        padding: 14rem 0;
         margin-bottom: 0;
         display: flex;
 
