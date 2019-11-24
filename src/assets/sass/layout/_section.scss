@@ -1,0 +1,116 @@
+.section {
+    padding: 8rem 0;
+
+    &__wrapper {
+        max-width: 50rem;
+        width: 100%;
+    }
+
+    &__intro {
+        margin: 0 auto;
+        max-width: 80rem;
+        text-align: center;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__heading {
+        color: $color-black;
+        display: inline-block;
+        font-size: 3.5rem;
+        font-weight: 400;
+
+        &:not(:last-child) {
+            margin-bottom: 1.6rem;
+        }
+
+        &.white {
+            color: $color-white;
+        }
+    }
+
+    &__outlets {
+        margin: 0 auto;
+        max-width: 60rem;
+        text-align: center;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__clients {
+        // background-color: $color-light-grey;
+        margin: 0 auto;
+        max-width: 80rem;
+        text-align: center;
+        width: 100%;
+
+        .carousel-control-prev-icon {
+            color: black;
+        }
+    }
+
+    &__video {
+        background-image: url("../images/bg-video.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 14rem !important;
+    }
+
+    &__top {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        display: flex;
+
+        @include respond(small) {
+            padding-top: 0px;
+
+            .words {
+                padding: 2em 2em 0 2em;
+                order: 2;
+                text-align: center;
+            }
+
+            .visuals {
+                order: 1;
+                padding: 0 30px !important;
+            }
+        }
+    }
+
+    &__features {
+        display: flex;
+
+        @include respond(small) {
+            .words {
+                order: 2;
+                margin-top: 3em;
+            }
+
+            .visuals {
+                order: 1;
+            }
+        }
+    }
+
+
+
+    &__benefits {
+        padding-bottom: 0px;
+
+        .cards {
+            @include respond(small) {
+                padding: 2rem 2.5rem;
+            }
+        }
+    }
+
+    &__logos {
+        padding-bottom: 0px;
+    }
+}

@@ -1,0 +1,19 @@
+@include respond(small) {
+  .navbar-nav {
+    text-align: left;
+    margin-top: 20px;
+
+    li.nav-item {
+      width: 100%;
+      padding: 0 10px;
+
+      +li.nav-item {
+        margin-top: 10px;
+      }
+
+      &:last-child {
+        margin-top: 15px !important;
+      }
+    }
+  }
+}
