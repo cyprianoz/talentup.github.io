@@ -1,2 +1,5 @@
-keys
-assets/.DS_Store.DS_Store
+# Ignore file named `README.txt`
+# README.txt
+
+# Ignore folder named `node_modules`
+node_modules/
