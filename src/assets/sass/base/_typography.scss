@@ -7,7 +7,7 @@ body {
 }
 
 .heading {
-  color: $color-black;
+  color: $color-blue;
   display: inline-block;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -87,4 +87,8 @@ a {
       margin-right: auto;
     }
   }
+}
+
+.text-orange {
+  color: $color-orange;
 }

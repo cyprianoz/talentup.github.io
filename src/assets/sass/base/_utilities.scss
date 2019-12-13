@@ -41,6 +41,18 @@
   .btn-link {
     color: #282c30;
   }
+
+  .card-header {
+    border-bottom: none;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .btn {
+    cursor: pointer;
+  }
 }
 
 figure {
